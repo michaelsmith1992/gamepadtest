@@ -1,0 +1,102 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two { 
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .four {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .five {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .six {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .seven {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .eight { 
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .nine {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .ten {
+    grid-column: 2;
+    grid-row: 5;
+  }
+  .eleven {
+    grid-column: 1;
+    grid-row: 6;
+  }
+  .twelve {
+    grid-column: 2;
+    grid-row: 6;
+  }
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#button1 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border:1px solid black;
+}
+#button2 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border:1px solid black;
+}
+#button3 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border:1px solid black;
+}
+#button4 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border:1px solid black;
+}
